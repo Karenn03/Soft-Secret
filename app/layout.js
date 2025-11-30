@@ -1,4 +1,5 @@
 import { Work_Sans } from "next/font/google";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
 
 const workSans = Work_Sans({

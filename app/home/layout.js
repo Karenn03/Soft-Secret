@@ -1,9 +1,9 @@
-import Navbar from "@/components/menus/Navbar";
+import NavbarHome from "@/components/menus/NavbarHome";
 
 export default function RootLayout({ children }) {
     return (
         <>
-            <Navbar />
+            <NavbarHome />
             <main>
                 {children}
             </main>
